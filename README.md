@@ -4,7 +4,7 @@
 
 ### 개요
  - EA는 '에아'라고 읽음.
- - Project M이 대화 기능을 구현하는 것을 목적으로 한다면, Project E는 기타 잡기능(?)들을 구현하는 것을 목적으로 함.
+ - [Project M](https://github.com/DarkTornado/ProjectM)이 대화 기능을 구현하는 것을 목적으로 한다면, Project E는 기타 잡기능(?)들을 구현하는 것을 목적으로 함.
  - Project E에서 E는 봇의 이름인 EA를 의미합니다.
  - 버전명 뒤에 J가 붙어있는 파일들은 [JellyBrick](https://github.com/JellyBrick)님이 만드신 [카카오톡 봇](https://play.google.com/store/apps/details?id=be.zvz.newskbot)에서 사용한다고 가정하고 작성한 소스입니다.
  - 버전명 뒤에 D가 붙어있는 파일들은 [Dark Tornado](https://github.com/DarkTornado)가 만든 [카카오톡 봇](https://play.google.com/store/apps/details?id=com.darktornado.kakaobot)([Nusty](https://play.google.com/store/apps/details?id=com.darktornado.nusty)에 내장된 카카오톡 봇 포함)에서 사용한다고 가정하고 작성한 소스입니다.
@@ -18,4 +18,9 @@
  ex) 이 봇은 Dark Tornado의 Project EA 소스를 사용하였습니다.
 
 ### 배포용 버전 목록
-- null
+
+#### JellyBrick의 카톡봇용 (vers. J)
+- [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20J.js)
+
+#### Dark Tornado의 카톡봇용 (vers. D)
+- [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20D.js)
