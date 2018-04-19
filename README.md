@@ -24,3 +24,16 @@
 
 #### Dark Tornado의 카톡봇용 (vers. D)
 - [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20D.js)
+
+### 명령어 목록
+#### 버전 1.0에서 추가
+ - /ea 따라하기
+ - /ea 파싱 \[URL\]
+ - /ea 날씨
+ - /ea 호출
+ - /ea 번역 \[언어코드1\] \[언어코드2\] \[내용\]
+ - /ea 시간
+ - /ea on
+ - /ea off
+ - /ea info
+ - /ea help
