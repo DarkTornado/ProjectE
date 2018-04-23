@@ -47,7 +47,7 @@ const BotData = {
 Bot.say = function(msg, replier) {
     replier.reply("[EA] " + msg);
 };
-Bot.toast = function(msg, tf) {
+Bot.toast = function(msg) {
     Api.UIThread(
         function() {
             var toast = android.widget.Toast.makeText(Api.getContext(), msg, android.widget.Toast.LENGTH_LONG);
