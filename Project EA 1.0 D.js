@@ -51,7 +51,7 @@ Bot.say = function(msg, replier) {
 Utils.getCurrentWeather = function() {
     try {
         var data = Utils.getHtmlFromWeb("https://m.search.naver.com/search.naver?query=날씨");
-        data = data.split("전국날씨</strong>")[1].split("<span class=\"date\"")[0].replace(/(<([^>]+)>)/g, "");
+        data = data.split("전국날씨</strong>")[1].split("<span class=\"date\"")[0].split("특보")[0].replace(/(<([^>]+)>)/g, "");
         data = data.trim().replace(/도씨/g, "℃").split("  ");
         var result = data[0].trim();
         for (var n = 1; n < data.length; n++) {
