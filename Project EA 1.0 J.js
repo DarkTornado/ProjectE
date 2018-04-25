@@ -74,7 +74,7 @@ Api.translate = function(lang1, lang2, value) {
 Utils.getCurrentWeather = function() {
     try {
         var data = Utils.getWebText("https://m.search.naver.com/search.naver?query=날씨");
-        data = data.split("전국날씨</strong>")[1].split("<span class=\"date\">")[0].replace(/(<([^>]+)>)/g, "");
+        data = data.split("전국날씨</strong>")[1].split("<span class=\"date\">")[0].split("특보")[0].replace(/(<([^>]+)>)/g, "");
         data = data.trim().replace(/  /g, "").replace(/도씨/g, "℃").replace(/ /g, ", ");
         return data;
     } catch (e) {
