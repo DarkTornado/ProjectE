@@ -2,6 +2,8 @@
 
 © 2018 Dark Tornado, All rights reserved.
 
+<img src="https://raw.githubusercontent.com/DarkTornado/ProjectE/master/PojectEA.png"><br>
+
 ### 개요
  - EA는 '에아'라고 읽음.
  - [Project M](https://github.com/DarkTornado/ProjectM)이 대화 기능을 구현하는 것을 목적으로 한다면, Project E는 기타 잡기능(?)들을 구현하는 것을 목적으로 함.
