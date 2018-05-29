@@ -24,12 +24,15 @@
 
 #### JellyBrick의 카톡봇용 (vers. J)
 - [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20J.js)
+- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20J.js)
 
 #### Dark Tornado의 자바스크립트 카톡봇용 (vers. D)
 - [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20D.js)
+- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20D.js)
 
 #### Dark Tornado의 커피스크립트 카톡봇용 (vers. C)
 - [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20C.coffee)
+- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20C.coffee)
 
 ### 명령어 목록
 #### 버전 1.0에서 추가
@@ -43,3 +46,17 @@
  - /ea off
  - /ea info
  - /ea help
+ 
+#### 버전 2.0에서 추가
+ - /ea 날짜
+ - /ea 주사위
+ - /ea 미세먼지
+ - /ea 검색 \[내용\]
+
+### 업데이트 내역
+#### 버전 1.0
+ - 최초 버전 출시.
+ - 명령어 10개 지원.
+ 
+#### 버전 2.0
+ - 명령어 4개 추가. 총 14개.
