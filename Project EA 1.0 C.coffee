@@ -88,7 +88,7 @@ procCmd = (room, msg, sender, isGroupChat, r) ->
         result = Utils.getCurrentWeather()
         Bot.say "현재 날씨입니다.\n" + result, r
     if msg is "호출"
-        Utils.toas room + "에서 " + sender + "(이)가 당신을 불렀습니다."
+        Utils.toast room + "에서 " + sender + "(이)가 당신을 불렀습니다."
         Bot.say "개발자를 호출하였습니다만, 무시할 가능성도 있습니다?", r
     if cmd is "번역"
         data2 = data.split(" ")
