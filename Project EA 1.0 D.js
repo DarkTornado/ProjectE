@@ -17,7 +17,6 @@ version 1.0 D
 
  - 이 소스에는 GPL 3.0이 적용되어있습니다.
 
-    <one line to give the program's name and a brief idea of what it does.>
     Project EA Copyright (C) 2018  Dark Tornado
 
     This program is free software: you can redistribute it and/or modify
