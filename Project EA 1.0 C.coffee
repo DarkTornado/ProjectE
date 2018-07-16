@@ -2,16 +2,19 @@
 Project - EA
 version 1.0 C
 © 2018 Dark Tornado, All rights reserved.
+
 <설명>
  - EA는 '에아'라고 읽습니다.
  - Dark Tornado가 만든 카카오톡 봇 및 Nusty에 내장된 카카오톡 봇을 기준으로 작성된 소스입니다.
+
 <가이드라인>
  - 개발자의 허락 없이 소스 코드 무단 배포 금지. 들키면, 싸대기 퍽퍽.
  - 소스 사용시 원작자를 밝혀주세요.
    ex) 이 봇은 Dark Tornado의 Project - EA 소스를 사용하였습니다.
+
 <라이선스>
  - 이 소스에는 GPL 3.0이 적용되어있습니다.
-    <one line to give the program's name and a brief idea of what it does.>
+    
     Project EA Copyright (C) 2018  Dark Tornado
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
