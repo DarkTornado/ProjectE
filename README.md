@@ -1,6 +1,6 @@
 # Project EA
 
-© 2018 Dark Tornado, All rights reserved.
+© 2018-2020 Dark Tornado, All rights reserved.
 
 <img src="https://raw.githubusercontent.com/DarkTornado/ProjectE/master/PojectEA.png"><br>
 
@@ -22,17 +22,17 @@
 
 ### 배포용 버전 목록
 
-#### JellyBrick의 카톡봇용 (vers. J)
-- [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20J.js)
-- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20J.js)
+#### 자바스크립트 버전 (vers. J, vers. D)
+- [버전 1.0 J](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20J.js) (JellyBrick의 카톡봇용)
+- [버전 1.0 D](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20D.js) (Dark Tornado의 카톡봇용)
+- [버전 2.0 J](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20J.js) (JellyBrick의 카톡봇용)
+- [버전 2.0 D](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20D.js) (Dark Tornado의 카톡봇용)
+- [버전 3.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%203.0.js) (버전 3.0부터 통합)
 
-#### Dark Tornado의 자바스크립트 카톡봇용 (vers. D)
-- [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20D.js)
-- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20D.js)
-
-#### Dark Tornado의 커피스크립트 카톡봇용 (vers. C)
-- [버전 1.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20C.coffee)
-- [버전 2.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20C.coffee)
+#### 커피스크립트 버전 (vers. C)
+- [버전 1.0 C](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20C.coffee)
+- [버전 2.0 C](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20C.coffee)
+- ~~버전 3.0 (개발중)~~
 
 ### 명령어 목록
 #### 버전 1.0에서 추가
@@ -53,6 +53,11 @@
  - /ea 미세먼지
  - /ea 검색 \[내용\]
 
+#### 버전 3.0에서 추가
+ - /ea 날씨 \[지역\]
+ - /ea 비트코인
+ - /ea 메이플 \[닉네임\]
+ 
 ### 업데이트 내역
 #### 버전 1.0
  - 최초 버전 출시.
@@ -60,3 +65,9 @@
  
 #### 버전 2.0
  - 명령어 4개 추가. 총 14개.
+
+#### 버전 3.0
+ - 명령어 3개 추가. 총 17개
+ - '/ea' 대신 '.ea'로도 사용이 가능하도록 변경.
+ - '/날씨' 명령어 내부 구현 변경
+ - D 버전이 J 버전으로 통합.
