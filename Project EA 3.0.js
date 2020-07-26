@@ -1,6 +1,6 @@
 /*
 Project - EA
-version 3.0 J
+version 3.0
 © 2018-2020 Dark Tornado, All rights reserved.
 <설명>
  - EA는 '에아'라고 읽습니다.
