@@ -8,6 +8,11 @@
  - EA는 '에아'라고 읽음.
  - [Project M](https://github.com/DarkTornado/ProjectM)이 대화 기능을 구현하는 것을 목적으로 한다면, Project E는 기타 잡기능(?)들을 구현하는 것을 목적으로 함.
  - Project E에서 E는 봇의 이름인 EA를 의미합니다.
+ - 자바스크립트로 작성된 버전과 커피스크립트로 작성된 버전이 있습니다.
+   - 자바스크립트로 작성된 버전은 [채팅 자동응답 봇](https://play.google.com/store/apps/details?id=com.darktornado.chatbot), [메신저봇](https://play.google.com/store/apps/details?id=com.xfl.kakaotalkbot), [메신저봇R](https://play.google.com/store/apps/details?id=com.xfl.msgbot), Nusty 내장 챗봇에서 구동된다고 가정하고 작성된 버전입니다.
+   - 커피스크립트로 작성된 버전은 [채팅 자동응답 봇](https://play.google.com/store/apps/details?id=com.darktornado.chatbot)과 Nusty 내장 챗봇에서 구동된다고 가정하고 작성된 버전입니다.
+ 
+ ### 버전 2.0 이하 버전 설명
  - 버전명 뒤에 J가 붙어있는 파일들은 [JellyBrick](https://github.com/JellyBrick)님이 만드신 [카카오톡 봇](https://play.google.com/store/apps/details?id=be.zvz.newskbot)에서 사용한다고 가정하고, <b>자바스크립트</b>로 작성한 소스입니다.
  - 버전명 뒤에 D가 붙어있는 파일들은 [Dark Tornado](https://github.com/DarkTornado)가 만든 [카카오톡 봇](https://play.google.com/store/apps/details?id=com.darktornado.kakaobot)([Nusty](https://play.google.com/store/apps/details?id=com.darktornado.nusty)에 내장된 카카오톡 봇 포함)에서 사용한다고 가정하고, <b>자바스크립트</b>로 작성한 소스입니다.
  - 버전명 뒤에 C가 붙어있는 파일들은 [Dark Tornado](https://github.com/DarkTornado)가 만든 [카카오톡 봇](https://play.google.com/store/apps/details?id=com.darktornado.kakaobot)([Nusty](https://play.google.com/store/apps/details?id=com.darktornado.nusty)에 내장된 카카오톡 봇 포함)에서 사용한다고 가정하고, <b>커피스크립트</b>로 작성한 소스입니다.
