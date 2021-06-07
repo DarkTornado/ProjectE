@@ -1,6 +1,6 @@
 # Project EA
 
-© 2018-2020 Dark Tornado, All rights reserved.
+© 2018-2021 Dark Tornado, All rights reserved.
 
 <img src="https://raw.githubusercontent.com/DarkTornado/ProjectE/master/PojectEA.png"><br>
 
@@ -33,6 +33,7 @@
 - [버전 2.0 J](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20J.js) (JellyBrick의 카톡봇용)
 - [버전 2.0 D](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20D.js) (Dark Tornado의 카톡봇용)
 - [버전 3.0](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%203.0.js) (버전 3.0부터 통합)
+- [버전 3.1](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%203.1.js) (버그 수정)
 
 #### 커피스크립트 버전 (vers. C)
 - [버전 1.0 C](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20C.coffee)
@@ -76,3 +77,7 @@
  - '/ea' 대신 '.ea'로도 사용이 가능하도록 변경.
  - '/날씨' 명령어 내부 구현 변경
  - D 버전이 J 버전으로 통합.
+
+#### 버전 3.1
+ - '/ea 날씨 \[행정구역\] 명령어가 작동하지 않는 오류 수정
+ - 일부 기능들의 소스 수정
