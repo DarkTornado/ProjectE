@@ -38,7 +38,7 @@
 #### 커피스크립트 버전 (vers. C)
 - [버전 1.0 C](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%201.0%20C.coffee)
 - [버전 2.0 C](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%202.0%20C.coffee)
-- ~~버전 3.0 (개발중)~~
+- [버전 3.1](https://github.com/DarkTornado/ProjectE/blob/master/Project%20EA%203.1.coffee)
 
 ### 명령어 목록
 #### 버전 1.0에서 추가
