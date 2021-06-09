@@ -74,7 +74,7 @@ Utils.getCurrentWeather = function() {
 };
 Utils.getDustData = function() {
     try {
-        var data = Utils.parse("https://m.search.naver.com/search.naver?query=미세먼지");
+        var data = org.jsoup.Jsoup.connect("https://m.search.naver.com/search.naver?query=미세먼지").get();
         data = data.select("div.lcl_lst").text();
         data = data.split("미세먼지")[1].trim().split(" ");
         var result = "";
@@ -96,7 +96,7 @@ Utils.dustLevel = function(value) {
 };
 Utils.getWeather = function(pos) {
     try {
-        var data0 = Utils.parse("https://m.search.naver.com/search.naver?query=" + pos.replace(/ /g, "%20") + "%20날씨");
+        var data0 = org.jsoup.Jsoup.connect("https://m.search.naver.com/search.naver?query="+pos.replace(/ /g, "%20") + "%20날씨").get();
         var data = data0.select("li.today");
         var info = data.select("span.blind");
         var result = "상태 : " + info.get(0).text() + " -> " + info.get(1).text() + "\n";
@@ -110,7 +110,7 @@ Utils.getWeather = function(pos) {
     }
 };
 Utils.getBitcoinPrice = function() {
-    return Utils.parse("https://m.search.daum.net/kakao?w=tot&DA=SH1&q=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%8B%9C%EC%84%B8%201%EC%9D%BC&rtmaxcoll=EMA").select("span.current_stock").get(0).text();
+     return org.jsoup.Jsoup.connect("https://m.search.daum.net/kakao?w=tot&DA=SH1&q=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%8B%9C%EC%84%B8%201%EC%9D%BC&rtmaxcoll=EMA").get().select("span.current_stock").get(0).text();
 };
 Utils.getMapleInfo = function(name) {
     try {
