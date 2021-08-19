@@ -28,17 +28,17 @@
 ### 배포용 버전 목록
 
 #### 자바스크립트 버전 (vers. J, vers. D)
-- [버전 1.0 J](Project%20EA%201.0%20J.js) (JellyBrick의 카톡봇용)
-- [버전 1.0 D](Project%20EA%201.0%20D.js) (Dark Tornado의 카톡봇용)
-- [버전 2.0 J](Project%20EA%202.0%20J.js) (JellyBrick의 카톡봇용)
-- [버전 2.0 D](Project%20EA%202.0%20D.js) (Dark Tornado의 카톡봇용)
-- [버전 3.0](Project%20EA%203.0.js) (버전 3.0부터 통합)
-- [버전 3.1](Project%20EA%203.1.js) (버그 수정)
+- [버전 1.0 J](release/Project%20EA%201.0%20J.js) (JellyBrick의 카톡봇용)
+- [버전 1.0 D](release/Project%20EA%201.0%20D.js) (Dark Tornado의 카톡봇용)
+- [버전 2.0 J](release/Project%20EA%202.0%20J.js) (JellyBrick의 카톡봇용)
+- [버전 2.0 D](release/Project%20EA%202.0%20D.js) (Dark Tornado의 카톡봇용)
+- [버전 3.0](release/Project%20EA%203.0.js) (버전 3.0부터 통합)
+- [버전 3.1](release/Project%20EA%203.1.js) (버그 수정)
 
 #### 커피스크립트 버전 (vers. C)
-- [버전 1.0 C](Project%20EA%201.0%20C.coffee)
-- [버전 2.0 C](Project%20EA%202.0%20C.coffee)
-- [버전 3.1](Project%20EA%203.1.coffee)
+- [버전 1.0 C](release/Project%20EA%201.0%20C.coffee)
+- [버전 2.0 C](release/Project%20EA%202.0%20C.coffee)
+- [버전 3.1](release/Project%20EA%203.1.coffee)
 
 ### 명령어 목록
 #### 버전 1.0에서 추가
