@@ -38,7 +38,7 @@
 #### 커피스크립트 버전 (vers. C)
 - [버전 1.0 C](release/Project%20EA%201.0%20C.coffee)
 - [버전 2.0 C](release/Project%20EA%202.0%20C.coffee)
-- [버전 3.1](release/Project%20EA%203.1.coffee)
+- [버전 3.1](release/Project%20EA%203.1.coffee) (버전 3.0 작업 전에 버그 발생해서 바로 3.1)
 
 ### 명령어 목록
 #### 버전 1.0에서 추가
