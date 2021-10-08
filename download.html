@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no width=device-width" />
+<title>
+Project EA
+</title>
+</head>
+<body bgcolor=#E8EAF6 style="margin:0px 0px 0px 0px;">
+
+<div style="background:#4A148C;padding:15px 20px 15px 20px;box-shadow:0px 4px 5px 0px rgba(0, 0, 0, 0.3);width:100%;position:fixed;">
+<font color=WHITE size='5px' face='arial'>Project E</font>
+</div>
+<br>
+
+<div style="padding:50px 20px 20px 20px;">
+<font color=BLACK size='3px'>
+
+<p>&nbsp;
+현재, 에아의 최신 버전은 2.0입니다.
+</p>
+
+<ul>
+<li>버전 J는 JellyBrick님이 만드신 카카오톡 봇에서 사용한다고 가정하고, 자바스크립트로 작성한 소스입니다.</li>
+<li>버전 D는 Dark Tornado가 만든 카카오톡 봇(Nusty에 내장된 카카오톡 봇 포함)에서 사용한다고 가정하고, 자바스크립트로 작성한 소스입니다.</li>
+<li>버전 C는 Dark Tornado가 만든 카카오톡 봇(Nusty에 내장된 카카오톡 봇 포함)에서 사용한다고 가정하고, 커피스크립트로 작성한 소스입니다.</li>
+</ul>
+
+</font>
+<font color=BLACK size='1px'>
+<center>
+<input type=button value="버전 2.0 J" style="width:100%;height:43px;background:#EEEEEE;border:0;box-shadow:1px 1px 1px 0px rgba(0, 0, 0, 0.5);" onclick="download(0);"><br><br>
+<input type=button value="버전 2.0 D" style="width:100%;height:43px;background:#EEEEEE;border:0;box-shadow:1px 1px 1px 0px rgba(0, 0, 0, 0.5);" onclick="download(1);"><br><br>
+<input type=button value="버전 2.0 C" style="width:100%;height:43px;background:#EEEEEE;border:0;box-shadow:1px 1px 1px 0px rgba(0, 0, 0, 0.5);" onclick="download(2);"><br><br>
+<input type=button value="구버전" style="width:100%;height:43px;background:#EEEEEE;border:0;box-shadow:1px 1px 1px 0px rgba(0, 0, 0, 0.5);" onclick="gotoGithub();"><br><br>
+</center>
+</font>
+</div>
+<hr width=95%>
+<font color=BLACK size='2px'>
+<p align=center>© 2018 Dark Tornado, All rights reserved.</p>
+</font>
+<script>
+function download(n){
+var vers = "2.0";
+var urls = ["J.js", "D.js", "C.coffee"];
+location.href="https://github.com/DarkTornado/ProjectE/blob/master/Project EA "+vers+" "+urls[n];
+}
+function gotoGithub(){
+alert("구버전은 깃허브에서 확인이 가능합니다.");
+location.href="https://github.com/DarkTornado/ProjectE/blob/master/README.md#배포용-버전-목록";
+}
+</script>
+</body>
+</html>
+
