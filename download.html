@@ -21,26 +21,14 @@
             현재, 에아의 최신 버전은 3.1입니다.
         </p>
         <center>
-            <input class=button type=button value="버전 2.0 J" onclick="download(0);"><br>
-            <input class=button type=button value="버전 2.0 D" onclick="download(1);"><br>
-            <input class=button type=button value="버전 2.0 C" onclick="download(2);"><br>
+            <input class=button type=button value="자바스크립트 버전" onclick="download(true);"><br>
+            <input class=button type=button value="커피스크립트 버전" onclick="download(false);"><br>
             <input class=button type=button value="구버전" onclick="gotoGithub();"><br>
         </center>
     </div>
     <hr width=95% />
-    <p class=copyright align=center>© 2018-2021 Dark Tornado, All rights reserved.</p>
-    <script>
-        function download(n) {
-            var vers = "2.0";
-            var urls = ["J.js", "D.js", "C.coffee"];
-            location.href = "https://github.com/DarkTornado/ProjectE/blob/master/Project EA " + vers + " " + urls[n];
-        }
-
-        function gotoGithub() {
-            alert("구버전은 깃허브에서 확인이 가능합니다.");
-            location.href = "https://github.com/DarkTornado/ProjectE/blob/master/README.md#배포용-버전-목록";
-        }
-    </script>
+    <p class=copyright>© 2018-2021 Dark Tornado, All rights reserved.</p>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
